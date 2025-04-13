@@ -1,0 +1,107 @@
+{
+    "Africa": {
+        "Northern Africa": {
+            "continent": "af",
+            "countries_included": ["Algeria", "Egypt", "Libya", "Morocco", "Tunisia"],
+            "nationality_terms": ["Algerian", "Egyptian", "Libyan", "Moroccan", "Tunisian"]
+        },
+        "Eastern Africa": {
+            "continent": "af",
+            "countries_included": ["Kenya", "Ethiopia", "Somalia", "Sudan", "Zimbabwe"],
+            "nationality_terms": ["Kenyan", "Ethiopian", "Somali", "Sudanese", "Zimbabwean"]
+        },
+        "Middle Africa": {
+            "continent": "af",
+            "countries_included": ["Angola", "Cameroon", "Central African Republic", "Congo", "Rwanda"],
+            "nationality_terms": ["Angolan", "Cameroonian", "Central African", "Congolese", "Rwandan"]
+        },
+        "Southern Africa": {
+            "continent": "af",
+            "countries_included": ["Botswana", "Eswatini", "Lesotho", "Namibia", "South Africa"],
+            "nationality_terms": ["Batswana", "Liswati", "Basotho", "Namibian", "South African"]
+        },
+        "Western Africa": {
+            "continent": "af",
+            "countries_included": ["Cape Verde", "Ivory Coast", "Ghana", "Liberia", "Nigeria"],
+            "nationality_terms": ["Cape Verdean", "Ivorian", "Ghanaian", "Liberian", "Nigerian"]
+        }
+    },
+    "Americas": {
+        "Caribbean": {
+            "continent": "am",
+            "countries_included": ["Bahamas", "Cuba", "Dominican Republic", "Jamaica", "Puerto Rico"],
+            "nationality_terms": ["Bahamian", "Cuban", "Dominican", "Jamaican", "Puerto Rican"]
+        },
+        "Central America": {
+            "continent": "am",
+            "countries_included": ["Belize", "Costa Rica", "El Salvador", "Guatemala", "Panama"],
+            "nationality_terms": ["Belizean", "Costa Rican", "Salvadoran", "Guatemalan", "Panamanian"]
+        },
+        "South America": {
+            "continent": "am",
+            "countries_included": ["Argentina", "Bolivia", "Brazil", "Colombia", "Peru"],
+            "nationality_terms": ["Argentinian", "Bolivian", "Brazilian", "Colombian", "Peruvian"]
+        },
+        "Northern America": {
+            "continent": "am",
+            "countries_included": ["Bermuda", "Canada", "Greenland", "Mexico", "United States"],
+            "nationality_terms": ["Bermudian", "Canadian", "Greenlander", "Mexican", "American"]
+        }
+    },
+    "Asia": {
+        "Central Asia": {
+            "continent": "as",
+            "countries_included": ["Kazakhstan", "Kyrgyzstan", "Tajikistan", "Turkmenistan", "Uzbekistan"],
+            "nationality_terms": ["Kazakh", "Kyrgyz", "Tajik", "Turkmen", "Uzbek"]
+        },
+        "Eastern Asia": {
+            "continent": "as",
+            "countries_included": ["China", "Japan", "Mongolia", "Korea", "Taiwan"],
+            "nationality_terms": ["Chinese", "Japanese", "Mongolian", "Korean", "Taiwanese"]
+        },
+        "South-eastern Asia": {
+            "continent": "as",
+            "countries_included": ["Indonesia", "Philippines", "Singapore", "Thailand", "Vietnam"],
+            "nationality_terms": ["Indonesian", "Filipino", "Singaporean", "Thai", "Vietnamese"]
+        },
+        "Southern Asia": {
+            "continent": "as",
+            "countries_included": ["Afghanistan", "Bangladesh", "India", "Nepal", "Pakistan"],
+            "nationality_terms": ["Afghan", "Bangladeshi", "Indian", "Nepali", "Pakistani"]
+        },
+        "Western Asia": {
+            "continent": "as",
+            "countries_included": ["Iran", "Iraq", "Israel", "Palestine", "Turkey"],
+            "nationality_terms": ["Iranian", "Iraqi", "Israeli", "Palestinian", "Turkish"]
+        }
+    },
+    "Europe": {
+        "Eastern Europe": {
+            "continent": "eu",
+            "countries_included": ["Bulgaria", "Poland", "Romania", "Ukraine", "Russia"],
+            "nationality_terms": ["Bulgarian", "Polish", "Romanian", "Ukrainian", "Russian"]
+        },
+        "Northern Europe": {
+            "continent": "eu",
+            "countries_included": ["Denmark", "Ireland", "Norway", "Scotland", "United Kingdom"],
+            "nationality_terms": ["Danish", "Irish", "Norwegian", "Scottish", "British"]
+        },
+        "Southern Europe": {
+            "continent": "eu",
+            "countries_included": ["Greece", "Italy", "Portugal", "Serbia", "Spain"],
+            "nationality_terms": ["Greek", "Italian", "Portuguese", "Serbian", "Spanish"]
+        },
+        "Western Europe": {
+            "continent": "eu",
+            "countries_included": ["Austria", "France", "Germany", "Netherlands", "Switzerland"],
+            "nationality_terms": ["Austrian", "French", "German", "Dutch", "Swiss"]
+        }
+    },
+    "Oceania": {
+        "Australia and New Zealand": {
+            "continent": "oc",
+            "countries_included": ["Australia", "New Zealand", "Fiji", "Hawaii", "Papua New Guinea"],
+            "nationality_terms": ["Australian", "New Zealander", "Fijian", "Hawaiian", "Papua New Guinean"]
+        }
+    }
+}
