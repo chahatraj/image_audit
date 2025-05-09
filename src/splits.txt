@@ -1,2 +1,20 @@
---model flux
---model sd
+--mode deductive --source flux --templates template_1a
+--mode deductive --source flux --templates template_1b
+--mode deductive --source flux --templates template_1c
+--mode deductive --source flux --templates template_1d
+--mode deductive --source flux --templates template_1e
+--mode deductive --source flux --templates template_2a
+--mode deductive --source flux --templates template_2b
+--mode deductive --source flux --templates template_2c
+--mode deductive --source flux --templates template_2d
+--mode deductive --source flux --templates template_2e
+--mode deductive --source sd --templates template_1a
+--mode deductive --source sd --templates template_1b
+--mode deductive --source sd --templates template_1c
+--mode deductive --source sd --templates template_1d
+--mode deductive --source sd --templates template_1e
+--mode deductive --source sd --templates template_2a
+--mode deductive --source sd --templates template_2b
+--mode deductive --source sd --templates template_2c
+--mode deductive --source sd --templates template_2d
+--mode deductive --source sd --templates template_2e

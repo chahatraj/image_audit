@@ -20,7 +20,6 @@ def save_log(log_dict, path):
 
 # ========== LOAD TEMPLATES AND NATIONALITIES ==========
 templates_df = pd.read_csv("../data/templates.csv")
-templates_df = templates_df[:1]  # Limit for testing
 
 with open("../data/geoscheme_short.json", "r") as f:
     geoscheme = json.load(f)
@@ -39,20 +38,20 @@ def build_nationality_lookup(geojson):
     return lookup
 
 nationality_lookup = build_nationality_lookup(geoscheme)
-all_nationalities = sorted(nationality_lookup.keys())[:3]  # limit for testing
+all_nationalities = sorted(nationality_lookup.keys())
 all_genders = ["male", "female"]
 
 # ========== MODEL LOADING ==========
 if model_choice == "flux":
     pipeline = DiffusionPipeline.from_pretrained(
         "black-forest-labs/FLUX.1-dev",
-        cache_dir="/scratch/craj/model_cache/flux-lora-real",
+        cache_dir="/scratch/amukher6/models/transformers/flux-lora-real",
         torch_dtype=torch.float16,
     )
 elif model_choice == "sd":
     pipeline = StableDiffusion3Pipeline.from_pretrained(
         "stabilityai/stable-diffusion-3.5-large",
-        cache_dir="/scratch/craj/model_cache/sd_35_large",
+        cache_dir="/scratch/amukher6/models/transformers/sd_35_large",
         torch_dtype=torch.float16,
     )
 pipeline.enable_attention_slicing()

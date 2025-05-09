@@ -9,8 +9,8 @@
 #SBATCH --mem=90GB
 #SBATCH --time=2-23:59:58
 #SBATCH --array=2-2
-#SBATCH --output=/scratch/craj/logs/vqa/out/sd690_n.%A_%a.out.txt
-#SBATCH --error=/scratch/craj/logs/vqa/err/sd690_n.%A_%a.err.txt
+#SBATCH --output=/scratch/amukher6/logs/image_audit/out/sd690_n.%A_%a.out.txt
+#SBATCH --error=/scratch/amukher6/logs/image_audit/err/sd690_n.%A_%a.err.txt
 
 #nvidia-smi
 
